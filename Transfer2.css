@@ -1,0 +1,194 @@
+@page {
+    size: auto;   /* auto is the initial value */
+    margin: 0mm;  /* this affects the margin in the printer settings */
+}
+
+html {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--dark);
+  margin: 5mm;
+}
+
+h1 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 18px;
+}
+
+p {
+  margin: 0px;
+  padding: 0px;
+}
+
+.header-grid {
+  display: grid;
+  padding: 0px;
+  grid-gap: 10px;
+  width: 100%;
+  margin: auto;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.header {
+  display: block;
+  padding: 0px;
+}
+
+.header h1 {
+  text-decoration: underline;
+}
+
+#alisalinfo {
+  text-align: left;
+  vertical-align: middle;
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+.alisalinfo-grid {
+  display: grid;
+  grid-template-columns: repeat(100, 1fr);
+}
+
+.alisalinfo-grid p:nth-child(odd) {
+  display: block;
+  text-align: right;
+  grid-column: 1 / 30;
+}
+
+.alisalinfo-grid p:nth-child(even) {
+  display: block;
+  text-align: left;
+  grid-column: 30 / 101;
+  margin-left: 5px;
+}
+
+.header img {
+  display: block;
+  max-width: 100%;
+  height: 150px;
+  margin: auto;
+}
+
+.pharmacist {
+  font-weight: bold;
+}
+
+.content1-grid {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(10, 1fr);
+  padding-bottom: 10px;
+}
+
+.content1 {
+  display: block;
+  border: 2px solid black;
+  padding: 8px;
+  border-radius: 15px;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+.patient-block1 {
+  display: grid;
+  grid-template-columns: repeat(100, 1fr);
+}
+
+.patient-block1 p:nth-child(odd) {
+  display: block;
+  text-align: right;
+  grid-column: 1 / 31;
+  grid-row: auto;
+}
+
+.patient-block1 p:nth-child(even) {
+  display: block;
+  text-align: left;
+  grid-column: 31 / 101;
+  grid-row: auto;
+  margin-left: 5px;
+}
+
+.pharmacyt-grid {
+  display: grid;
+  grid-template-columns: repeat(100, 1fr);
+}
+
+.pharmacyt-grid p:nth-child(odd) {
+  display: block;
+  grid-column: 1 / 23;
+  text-align: right;
+}
+
+.pharmacyt-grid p:nth-child(even) {
+  display: block;
+  grid-column: 23 / 101;
+  text-align: left;
+  margin-left: 5px;
+}
+
+.thanks {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+[name="icons"] {
+  font-size: 1.5em;
+}
+
+.footer1 .pharmacyFax {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.boldFax1 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#attention {
+  grid-column: 1 / 7;
+}
+
+#datetime {
+  grid-column: 7 / 11;
+}
+
+#patientinfo {
+  grid-column: 1 / 7;
+}
+
+#transferpharmacy {
+  grid-column: 7 / 11;
+}
+
+#medrequest {
+  grid-column: 1 / 7;
+}
+
+#disclaimer {
+  grid-column: 7 / 11;
+}
+
+#disclaimer p {
+  font-size: 12px;
+}
+
+#notes {
+  grid-column: 1 / 7;
+}
+
+#confidential {
+  grid-column: 7 / 11;
+}
+
+#confidential p {
+  font-size: 12px;
+}
