@@ -184,10 +184,6 @@ $('#sender').change(function(){
     $('#sender3').val('ISELA');
     $('#sender2').hide();
     $('#sender3').hide();
-  } else if($('#sender').val() == 'JUAN'){
-    $('#sender3').val('JUAN');
-    $('#sender2').hide();
-    $('#sender3').hide();
   } else if($('#sender').val() == 'MESELINA'){
     $('#sender3').val('MESELINA');
     $('#sender2').hide();
