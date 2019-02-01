@@ -148,8 +148,16 @@ $('#pharmacist').change(function(){
     $('#pharmacist-input2').val('AKIRA');
     $('#pharmacist-input1').hide();
     $('#pharmacist-input2').hide();
+  } else if($('#pharmacist').val() == 'HULDA') {
+    $('#pharmacist-input2').val('HULDA');
+    $('#pharmacist-input1').hide();
+    $('#pharmacist-input2').hide();
   } else if($('#pharmacist').val() == 'JESSE') {
     $('#pharmacist-input2').val('JESSE');
+    $('#pharmacist-input1').hide();
+    $('#pharmacist-input2').hide();
+  } else if($('#pharmacist').val() == 'PAUL') {
+    $('#pharmacist-input2').val('PAUL');
     $('#pharmacist-input1').hide();
     $('#pharmacist-input2').hide();
   } else {
@@ -186,6 +194,14 @@ $('#sender').change(function(){
     $('#sender3').hide();
   } else if($('#sender').val() == 'MESELINA'){
     $('#sender3').val('MESELINA');
+    $('#sender2').hide();
+    $('#sender3').hide();
+  } else if($('#sender').val() == 'SAMANTHA'){
+    $('#sender3').val('SAMANTHA');
+    $('#sender2').hide();
+    $('#sender3').hide();
+  } else if($('#sender').val() == 'SARAH'){
+    $('#sender3').val('SARAH');
     $('#sender2').hide();
     $('#sender3').hide();
   } else if($('#sender').val() == 'VIVIAN'){
