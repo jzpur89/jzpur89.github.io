@@ -184,12 +184,12 @@ $('#sender').change(function(){
     $('#sender3').val('CLAUDIA');
     $('#sender2').hide();
     $('#sender3').hide();
-  } else if($('#sender').val() == 'EMILY'){
-    $('#sender3').val('EMILY');
-    $('#sender2').hide();
-    $('#sender3').hide();
   } else if($('#sender').val() == 'ISELA'){
     $('#sender3').val('ISELA');
+    $('#sender2').hide();
+    $('#sender3').hide();
+  } else if($('#sender').val() == 'JACQUELINE'){
+    $('#sender3').val('JACQUELINE');
     $('#sender2').hide();
     $('#sender3').hide();
   } else if($('#sender').val() == 'MESELINA'){
