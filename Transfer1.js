@@ -176,6 +176,10 @@ $('#sender').change(function(){
     $('#sender3').val('ALMA');
     $('#sender2').hide();
     $('#sender3').hide();
+  } else if($('#sender').val() == 'ANA'){
+    $('#sender3').val('ANA');
+    $('#sender2').hide();
+    $('#sender3').hide();
   } else if($('#sender').val() == 'CESAR'){
     $('#sender3').val('CESAR');
     $('#sender2').hide();
@@ -200,8 +204,8 @@ $('#sender').change(function(){
     $('#sender3').val('MESELINA');
     $('#sender2').hide();
     $('#sender3').hide();
-  } else if($('#sender').val() == 'SAMANTHA'){
-    $('#sender3').val('SAMANTHA');
+  } else if($('#sender').val() == 'RITA'){
+    $('#sender3').val('RITA');
     $('#sender2').hide();
     $('#sender3').hide();
   } else if($('#sender').val() == 'VIVIAN'){
