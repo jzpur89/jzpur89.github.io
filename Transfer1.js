@@ -180,24 +180,12 @@ $('#sender').change(function(){
     $('#sender3').val('ANA');
     $('#sender2').hide();
     $('#sender3').hide();
-  } else if($('#sender').val() == 'CESAR'){
-    $('#sender3').val('CESAR');
-    $('#sender2').hide();
-    $('#sender3').hide();
   } else if($('#sender').val() == 'CINTIA'){
     $('#sender3').val('CINTIA');
     $('#sender2').hide();
     $('#sender3').hide();
-  } else if($('#sender').val() == 'CLAUDIA'){
-    $('#sender3').val('CLAUDIA');
-    $('#sender2').hide();
-    $('#sender3').hide();
   } else if($('#sender').val() == 'ISELA'){
     $('#sender3').val('ISELA');
-    $('#sender2').hide();
-    $('#sender3').hide();
-  } else if($('#sender').val() == 'JACQUELINE'){
-    $('#sender3').val('JACQUELINE');
     $('#sender2').hide();
     $('#sender3').hide();
   } else if($('#sender').val() == 'MESELINA'){
@@ -206,6 +194,10 @@ $('#sender').change(function(){
     $('#sender3').hide();
   } else if($('#sender').val() == 'RITA'){
     $('#sender3').val('RITA');
+    $('#sender2').hide();
+    $('#sender3').hide();
+  } else if($('#sender').val() == 'VERONICA'){
+    $('#sender3').val('VERONICA');
     $('#sender2').hide();
     $('#sender3').hide();
   } else if($('#sender').val() == 'VIVIAN'){
